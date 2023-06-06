@@ -12,10 +12,13 @@
 </head>
 
 <body>
-    <div class="logo">
-        <img src="../res/logo.png" alt="logo">
-    </div>
+    <!--This div is just for space bettwen top border of page and container div
+    so that container can be centered-->
+    <div class="space-div"></div>
     <div class="container" id="container-div">
+        <div class="logo">
+            <img src="../res/logo.png" alt="logo">
+        </div>
         <h1 id="text-h1">Let's see if we need umbrella, shall we? 🏄</h1>
         <div class="input-container">
             <input type="text" id="location-input" placeholder="e.g., Belgrade, Rome, Moscow">
@@ -33,9 +36,6 @@
 
     </div>
 
-    <!--Transifex Native-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@transifex/native/dist/browser.native.min.js">
-    </script>
     <script src="index.js"></script>
 </body>
 

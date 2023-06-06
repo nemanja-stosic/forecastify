@@ -33,6 +33,11 @@ body {
     color: #b3dec1;
 }
 
+.space-div {
+    width: 200px;
+    height: 100px;
+}
+
 .draggable {
     max-width: 400px;
     margin: 0 auto;

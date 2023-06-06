@@ -11,8 +11,8 @@ Forecastify is fully responsive, so it will work and look good on any device.
 Also, I used several API-s:
 <ul>
   <li>OpenWeatherMap API that shows all relevant weather information.</li>
-  <li>The Unsplash API that shows pictures of cities</li>
-  <li>REST Countries API that shows the flag of selected city</li>
+  <li>The Unsplash API that shows pictures of cities.</li>
+  <li>REST Countries API that shows the flag of selected city.</li>
 </ul>
 
 Preview (less than 1 min)

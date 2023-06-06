@@ -15,7 +15,7 @@ async function handleSearch() {
         return;
     }
 
-    const apiKey = '74392e6b1943250b316562d677c2933e';
+    const apiKey = 'your API key here';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
 
     weatherInfoDiv.innerHTML = '';
@@ -68,11 +68,6 @@ function displayWeatherData(data) {
         <p>Condition: ${weatherCondition} ☔</p>
         `;
     }
-
-
-    // weatherInfoDiv.innerHTML += `
-    // <p>Condition: ${weatherCondition} </p>
-    // `;
 
     weatherInfoDiv.innerHTML += `
     <p>Humidity: ${humidity} 💧</p>
@@ -141,7 +136,7 @@ function displayWeatherData(data) {
 }
 
 async function fetchAndShowBackgroundImage(cityName) {
-    const unsplashApiKey = 'y_dohQeM_X7duflEuxE4JQVZYlX6gS5bCdbBmfP28OU';
+    const unsplashApiKey = 'your API key here';
     const unsplashApiUrl = `https://api.unsplash.com/search/photos?query=${cityName}&client_id=${unsplashApiKey}`;
 
     try {
